@@ -1,0 +1,66 @@
+.chart_item h2 {
+    border: 1px solid #1ea2bf78;
+    background: #27c3a6;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 21px;
+    display: block;
+    width: 700px;
+    box-shadow: 0px 2px 3px 0px black;
+}
+
+.page-body .row {
+    justify-content: center;
+}
+
+.chart_item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart_item h2 {
+    margin-bottom: 10px;
+}
+
+.img-fluid {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#myChart_category rect {
+    fill: none !important;
+}
+
+#myChart_comment rect:nth-child(2) {
+    padding-left: 200px;
+}
+
+.fixed-button {
+    display: none;
+}
+
+.pcoded .pcoded-header[header-theme="theme1"] {
+    background: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li:hover>a {
+    background: var(--bg-color) !important;
+    color: #fff !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li:hover>a {
+    color: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li.active>a>.pcoded-mtext:after,
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li:hover>a>.pcoded-mtext:after {
+    background-color: var(--bg-color);
+}

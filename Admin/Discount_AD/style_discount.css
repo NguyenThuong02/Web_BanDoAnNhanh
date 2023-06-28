@@ -1,0 +1,156 @@
+.inp__codeDiscount {
+    width: 500px;
+    background-color: #ffd75e;
+    margin: auto;
+    border: 1px dashed var(--bg-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inp__codeDiscount form {
+    width: 80%;
+    margin: auto;
+}
+
+.form__group input {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background: none;
+    border: 1px dashed #000000;
+    padding-left: 5px;
+    background-color: #fff;
+    color: #448aff;
+}
+
+.form__submit {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.form__group label {
+    min-width: 130px;
+}
+
+.form__group {
+    margin: 15px 0;
+}
+
+.bnt__newCodeDiscount {
+    border: none;
+    background-color: var(--bg-color);
+    color: #fff;
+    border-radius: 20px;
+    width: 125px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.bnt__newCodeDiscount:hover {
+    box-shadow: 1px 1px 3px var(--bg-color);
+}
+
+.showListDiscountCode h3 {
+    padding: 2px 20px;
+}
+
+.showListDiscountCode .title__silder {
+    background-color: var(--bg-color);
+    color: #fff;
+}
+
+.title__silder i {
+    padding: 0 5px;
+}
+
+.showListDiscountCode {
+    margin: 20px 0;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid rgb(182, 180, 180);
+}
+
+.showListDiscountCode table {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.showListDiscountCode th {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--bg-color);
+    color: #fff;
+    font-weight: 600;
+}
+
+.showListDiscountCode td {
+    padding: 5px;
+}
+
+td.bnt__function {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0 !important; */
+}
+
+.valueDiscount {
+    /* padding: 0 !important; */
+    text-align: center;
+}
+
+.bnt__function button {
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bnt__function button:hover {
+    box-shadow: 1px 1px 4px black;
+}
+
+.bnt__function .bnt_delete {
+    background-color: rgb(187, 15, 15);
+}
+
+.bnt__function .bnt_edit {
+    background-color: rgb(15, 104, 187);
+}
+
+.img-fluid {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.fixed-button {
+    display: none !important;
+}
+
+.pcoded .pcoded-header[header-theme="theme1"] {
+    background: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li:hover>a {
+    background: var(--bg-color) !important;
+    color: #fff !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li:hover>a {
+    color: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li.active>a>.pcoded-mtext:after,
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li:hover>a>.pcoded-mtext:after {
+    background-color: var(--bg-color);
+}

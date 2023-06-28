@@ -1,0 +1,33 @@
+.img-fluid {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.mat-clr-stat-card.green {
+    background-color: #446fb2;
+}
+
+.fixed-button {
+    display: none;
+}
+
+.pcoded .pcoded-header[header-theme="theme1"] {
+    background: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li:hover>a {
+    background: var(--bg-color) !important;
+    color: #fff !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li:hover>a {
+    color: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li.active>a>.pcoded-mtext:after,
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li:hover>a>.pcoded-mtext:after {
+    background-color: var(--bg-color);
+}

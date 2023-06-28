@@ -1,0 +1,285 @@
+.inp__product {
+    margin: 50px 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #1ea2bf;
+}
+
+.title_product_list {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: none;
+}
+
+.title_product_add {
+    font-size: 20px;
+    color: var(--bg-color);
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.form__group.code__product,
+.form__group.view__product {
+    display: none;
+}
+
+.inp__product__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__group+.form__group {
+    margin: 20px 0;
+}
+
+.form__group input[type="text"] {
+    min-width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+.form__group select {
+    min-width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+.form__group textarea {
+    outline: none;
+    border: 1px solid rgb(170, 165, 165);
+}
+
+.nicEdit-main {
+    background-color: #fff;
+}
+
+.form__group .inp__choose__special {
+    display: flex;
+    border: 1px solid rgb(170, 165, 165);
+    line-height: 30px;
+    min-width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.form__group input:focus {
+    border: 1px solid var(--bg-color);
+    box-shadow: 0px 0px 5px 0px var(--bg-color);
+}
+
+.form__group select:focus {
+    border: 1px solid var(--bg-color);
+    box-shadow: 0px 0px 5px 0px var(--bg-color);
+}
+
+.form__group textarea:focus {
+    border: 1px solid var(--bg-color);
+    box-shadow: 0px 0px 5px 0px var(--bg-color);
+}
+
+.form__group label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img__product input {
+    min-width: 300px;
+    padding: 0;
+    border: 1px solid rgb(170, 165, 165);
+    background-color: #fff;
+}
+
+.dateAdd__product input {
+    border: 1px solid rgb(170, 165, 165);
+    line-height: 30px;
+    min-width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.inp__special__item label {
+    font-size: 15px;
+}
+
+.bnt_product {
+    display: flex;
+    justify-content: center;
+}
+
+.bnt_product button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.bnt_product button:hover {
+    box-shadow: 1px 1px 4px 0px #000000;
+}
+
+.bnt_product button {
+    margin: 0 20px;
+}
+
+#form__show__list {
+    display: none;
+}
+
+.show__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show__list__img img {
+    max-width: 155px;
+    height: 100px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 1px solid rgb(21, 133, 49, 20%);
+}
+
+th {
+    background-color: var(--bg-color);
+    padding: 30px 5px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.checkbox {
+    width: min-content;
+}
+
+.show__list__content input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    color: var(--bg-color);
+}
+
+.show__list__content input[type="checkbox"]:checked~label {
+    background-color: #2196F3;
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.bnt__product {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product__edit {
+    background-color: var(--bg-color);
+}
+
+.product__edit:hover {
+    box-shadow: 1px 1px 4px 0px #000000;
+}
+
+.product__delete {
+    background-color: #af1d18;
+}
+
+.product__delete:hover {
+    box-shadow: 1px 1px 4px 0px #000000;
+}
+
+.manage__product {
+    display: flex;
+    align-content: flex-start;
+    margin: 10px 0 50px 0;
+}
+
+.bnt__chooseAll+.bnt__chooseAll {
+    margin-left: 20px;
+}
+
+.manage__product .bnt__product {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.manage__product button:hover {
+    box-shadow: 1px 1px 4px 0px #000000;
+}
+
+.fixed-button {
+    display: none;
+}
+
+.img-fluid {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.pcoded .pcoded-header[header-theme="theme1"] {
+    background: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item>li:hover>a {
+    background: var(--bg-color) !important;
+    color: #fff !important;
+}
+
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li.active>a,
+.pcoded .pcoded-navbar[active-item-theme="theme1"] .pcoded-item li .pcoded-submenu li:hover>a {
+    color: var(--bg-color) !important;
+}
+
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li.active>a>.pcoded-mtext:after,
+.pcoded .pcoded-navbar .pcoded-item .pcoded-hasmenu[subitem-icon="style7"] .pcoded-submenu>li:hover>a>.pcoded-mtext:after {
+    background-color: var(--bg-color);
+}

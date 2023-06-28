@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('../images/background_cart.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: var(--bg-color);
+    font-family: 'Alegreya', serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    display: flex;
+    position: position;
+    margin-right: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+    width: 50vh;
+}
+
+form {
+    width: 350px;
+    height: auto;
+    border: 1px solid var(--bg-color);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+form div {
+    margin: 20px 20px;
+}
+
+h1 {
+    position: relative;
+    width: fit-content;
+    padding-bottom: 12px;
+    color: #fff;
+    transition: 2s;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--bg-color);
+    bottom: 0;
+}
+
+label,
+span {
+    color: #fff;
+}
+
+form input[type=submit] {
+    width: 100%;
+    height: 35px;
+    border: 2px solid var(--bg-color);
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+form input[type=submit]:hover {
+    background-color: #fff;
+    color: var(--bg-color);
+    border: none;
+}
+
+input {
+    outline: none;
+}
+
+input::placeholder {
+    color: #fff;
+    background: transparent;
+    font-family: 'Alegreya', serif;
+}
+
+.userName,
+.passWord,
+.memail {
+    border-bottom: 3px solid var(--bg-color);
+    width: 7%;
+    transition: 3.25s;
+}
+
+.userName:hover,
+.memail:hover,
+.passWord:hover {
+    width: 100%;
+}
+
+.userName input,
+.passWord input,
+.memail input {
+    height: 45px;
+    padding-left: 30px;
+    border: none;
+    font-size: 16px;
+    background: transparent;
+    transition: 2.25s;
+    color: rgb(221, 235, 247);
+}
+
+.container i {
+    position: absolute;
+    font-size: 20px;
+    line-height: 45px;
+    color: #fff;
+}
+
+.creatAcc a {
+    padding-left: 10px;
+    color: rgba(185, 250, 111, 0.959);
+}
+
+#disError {
+    color: #bb4d42;
+    text-shadow: 1px 1px #d2c0c0;
+    text-align: center;
+    display: inherit;
+}
+
+form {
+    animation: productAnimate2;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes productAnimate2 {
+    to {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+@keyframes error {
+    0% {
+        transform: rotate(-5deg)
+    }
+    20% {
+        transform: rotate(5deg)
+    }
+    40% {
+        transform: rotate(-5deg)
+    }
+    60% {
+        transform: rotate(-5deg)
+    }
+    80% {
+        transform: rotate(-5deg)
+    }
+    100% {}
+}

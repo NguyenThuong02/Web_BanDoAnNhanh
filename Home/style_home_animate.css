@@ -1,0 +1,241 @@
+header {
+    animation: BoxHeader;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes BoxHeader {
+    to {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.header_top div {
+    animation: header;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes header {
+    0% {
+        transform: rotate(-5deg)
+    }
+    25% {
+        transform: rotate(5deg)
+    }
+    50% {
+        transform: rotate(-5deg)
+    }
+    100% {}
+}
+
+.header_bottom {
+    animation: menutop;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes menutop {
+    to {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+/* .show__nav__user {
+    animation: dropDown;
+    animation-duration: 0.5s;
+    animation-direction: alternate-reverse;
+} */
+
+@keyframes dropDown {
+    to {
+        opacity: 0;
+        transform: translatey(-10%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.product_lemonTea .item-product-hot {
+    animation: productAnimate1;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes productAnimate1 {
+    to {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.product_drinkTea .item-product-hot {
+    animation: productAnimate2;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes productAnimate2 {
+    to {
+        opacity: 0;
+        transform: translatey(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.product_hot .item-product-hot {
+    animation: productAnimate3;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes productAnimate3 {
+    to {
+        opacity: 0;
+        transform: scale(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.title-product_hot {
+    animation: titleAnimate;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes titleAnimate {
+    to {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.banner {
+    animation: bannerAnimate;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes bannerAnimate {
+    to {
+        opacity: 0;
+        transform: translateZ(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.title-list-category {
+    animation: titleAnimateCategory;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes titleAnimateCategory {
+    to {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.slide-category {
+    animation: AnimateCategory;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes AnimateCategory {
+    to {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.quisle {
+    animation: AnimateQuisle;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes AnimateQuisle {
+    to {
+        opacity: 0;
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.title_quisle {
+    animation: AnimateQuisle1;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes AnimateQuisle1 {
+    to {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+.item_quisle {
+    animation: AnimateQuisle2;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes AnimateQuisle2 {
+    to {
+        opacity: 0;
+        transform: scale(0%);
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+footer {
+    animation: AnimateFooter;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes AnimateFooter {
+    to {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    from {
+        opacity: 1;
+    }
+}
